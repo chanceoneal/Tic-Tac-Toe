@@ -57,8 +57,8 @@
 			}
 		}
 
-		player = Tile.NOUGHT;
-		isPlayer = player === Tile.NOUGHT;
+		player = Tile.CROSS;
+		isPlayer = player === Tile.CROSS;
 		aiMoved = false;
 		ai = new AIPlayer(data);
 		ai.setSeed(player === Tile.NOUGHT ? Tile.CROSS : Tile.NOUGHT);
